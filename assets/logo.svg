@@ -1,0 +1,6 @@
+<svg width="160" height="40" viewBox="0 0 160 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- PLACEHOLDER LOGO — swap this file (keep filename "logo.svg") for the real brand mark -->
+  <rect x="0" y="4" width="32" height="32" rx="8" fill="#22e0ff"/>
+  <path d="M10 26 L16 12 L20 20 L24 12 L28 26" stroke="#05070d" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="42" y="27" font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="20" font-weight="700" fill="#f5f7fa">Info<tspan fill="#22e0ff">surge</tspan></text>
+</svg>
