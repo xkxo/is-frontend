@@ -1,261 +1,282 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Infosurge — IT Services &amp; CRM Solutions</title>
-  <meta name="description" content="Infosurge delivers tailored CRM implementation, software integration, and process optimisation for growing businesses.">
-  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <title>Infosurge — Integration &amp; EDI Specialists, Birmingham</title>
+  <meta name="description" content="Birmingham-based integration and EDI consultancy. We connect your ERP, finance and warehouse systems to each other and to every trading partner, in whatever format they need. Book a free 30-minute consultation.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=20260814">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@600;700&family=Fraunces:opsz,wght@9..144,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=20261006">
 </head>
 <body>
 
-  <!-- ===== Header / Nav ===== -->
-  <header class="site-header" id="top">
+  <!-- Background: grid + glow -->
+  <div class="bg" aria-hidden="true">
+    <div class="bg-grid"></div>
+    <div class="bg-beam"></div>
+    <div class="bg-corner"></div>
+  </div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
     <div class="container nav-inner">
-      <a href="#top" class="brand">
-        <img src="assets/logo.png" alt="Infosurge" class="brand-logo">
+      <a href="#top" class="brand" aria-label="Infosurge home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="16" height="16"><path d="M4 17 L9 6 L12 12 L15 6 L20 17" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <span class="brand-name">Info<span>surge</span></span>
       </a>
 
-      <nav class="nav-links" id="navLinks">
-        <a href="#home">Home</a>
+      <nav class="nav-links" id="nav-links" aria-label="Main">
+        <a href="#demos">Demos</a>
         <a href="#about">About</a>
         <a href="#services">Services</a>
-        <a href="#features">Features</a>
-        <a href="advisory/">Advisory</a>
+        <a href="#results">Results</a>
         <a href="#contact">Contact</a>
       </nav>
 
-      <a href="#contact" class="btn btn-primary nav-cta">Contact Us</a>
+      <a href="#contact" class="btn btn-outline btn-sm nav-cta">
+        Free consultation
+        <svg class="arrow" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
 
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span>
       </button>
     </div>
   </header>
 
-  <main>
-    <!-- ===== Hero ===== -->
-    <section class="hero" id="home">
-      <div class="hero-glow" aria-hidden="true"></div>
+  <!-- ============ ANNOUNCEMENT STRIP ============ -->
+  <div class="strip">
+    <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M8 4.8V8l2.2 1.4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+    <span>Free 30-minute integration consultation</span>
+    <a href="tel:01217739923" class="strip-chip">0121 773 9923</a>
+  </div>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
       <div class="container hero-inner">
-        <p class="eyebrow reveal">IT Services &amp; CRM Solutions</p>
-        <h1 class="reveal">Empower Your <span class="text-accent">Business Growth</span></h1>
-        <p class="hero-sub reveal">Transforming business processes with tailored IT and consulting solutions. Specialising in CRM support, integration, and process optimisation for business success.</p>
-        <div class="hero-actions reveal">
-          <a href="#contact" class="btn btn-primary">Get Started</a>
-          <a href="#services" class="btn btn-ghost">Explore Services</a>
-        </div>
-      </div>
-    </section>
+        <span class="pill reveal"><span class="pill-dot"></span>Integration &amp; EDI · Birmingham</span>
 
-    <!-- ===== Stats ===== -->
-    <section class="stats">
-      <div class="container stats-grid">
-        <div class="stat-card reveal">
-          <span class="stat-number">10+</span>
-          <span class="stat-label">Years Experience</span>
-          <p>More than a decade of industry experience supporting businesses in CRM implementation and software integration.</p>
-        </div>
-        <div class="stat-card reveal">
-          <span class="stat-number">100+</span>
-          <span class="stat-label">Successful Projects</span>
-          <p>Successfully delivered over one hundred CRM and IT integration projects across various industries.</p>
-        </div>
-        <div class="stat-card reveal">
-          <span class="stat-number">95%</span>
-          <span class="stat-label">Client Retention</span>
-          <p>A 95% client retention rate reflecting strong trust and service quality.</p>
-        </div>
-      </div>
-    </section>
+        <h1 class="hero-title reveal">
+          Every system and every partner,<br>
+          <em>connected</em>.
+        </h1>
 
-    <!-- ===== About ===== -->
-    <section class="about" id="about">
-      <div class="container about-grid">
-        <div class="reveal">
-          <p class="eyebrow">About Infosurge</p>
-          <h2>Tailored IT &amp; consulting, built around your CRM</h2>
-          <p class="lead">At Infosurge, we focus on providing tailored IT services and consulting to help businesses set up and enhance CRM systems. Our expertise in software integration and process optimisation ensures your operations run efficiently, supporting your growth and success.</p>
-          <a href="#contact" class="link-arrow">Learn more about us &rarr;</a>
-        </div>
-        <div class="about-card reveal">
-          <div class="about-card-glow" aria-hidden="true"></div>
-          <ul class="about-list">
-            <li><span class="dot"></span>Decade-plus CRM &amp; integration expertise</li>
-            <li><span class="dot"></span>Process optimisation built around your workflow</li>
-            <li><span class="dot"></span>Hands-on support from first call to go-live</li>
-            <li><span class="dot"></span>Trusted by businesses across multiple industries</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+        <p class="hero-sub reveal">We connect your ERP, finance and warehouse systems to each other and to your customers and suppliers. Orders, shipping notices and invoices flow in the format each partner expects, with no re-keying.</p>
 
-    <!-- ===== Services ===== -->
-    <section class="services" id="services">
-      <div class="container">
-        <p class="eyebrow center reveal">What We Do</p>
-        <h2 class="center reveal">Explore Our Services</h2>
-        <p class="section-sub center reveal">Practical, business-focused IT and CRM support — designed around how your team actually works.</p>
-
-        <div class="services-grid">
-          <div class="service-card reveal">
-            <div class="service-icon">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M4 19h16M4 19V7a2 2 0 0 1 2-2h4v14M4 19h6M14 19V11a2 2 0 0 1 2-2h4v10M14 19h6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </div>
-            <h3>Tailored CRM Solutions</h3>
-            <p>CRM implementations designed to fit your unique business needs — from setup and configuration to team onboarding.</p>
+        <!-- Interactive "assistant" card, mirrors the Prompt Analyzer in the reference -->
+        <form class="console reveal" id="console" action="#contact">
+          <div class="console-head">
+            <span class="console-title">
+              <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path d="M9 1.5 3.5 9H8l-1 5.5L12.5 7H8z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+              What do you need to connect?
+            </span>
+            <span class="console-status"><span class="status-dot"></span>Ready</span>
           </div>
-
-          <div class="service-card reveal">
-            <div class="service-icon">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M8 7L3 12l5 5M16 7l5 5-5 5M13 4l-2 16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </div>
-            <h3>Seamless Software Integration</h3>
-            <p>Connecting your existing software for better data flow and automation, so your systems work together, not against each other.</p>
+          <div class="console-body">
+            <label for="need" class="sr-only">Describe what you need</label>
+            <input id="need" type="text" autocomplete="off" placeholder="">
+            <button type="submit" class="console-send" aria-label="Send to contact form">
+              <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
           </div>
-
-          <div class="service-card reveal">
-            <div class="service-icon">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M3 12a9 9 0 1 0 9-9 9 9 0 0 0-9 9Z" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v5l3 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </div>
-            <h3>Process Optimisation</h3>
-            <p>Streamlining day-to-day operations so your team spends less time on admin and more time on the work that matters.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== Features / Deliverables ===== -->
-    <section class="features" id="features">
-      <div class="container features-grid">
-        <div class="reveal">
-          <p class="eyebrow">Deliverable Features</p>
-          <h2>Everything you need, nothing you don't</h2>
-          <p class="lead">Every engagement is scoped around clear, measurable outcomes — so you always know what you're getting and when.</p>
-          <ul class="feature-list">
-            <li><span class="check">✓</span> Discovery &amp; requirements mapping</li>
-            <li><span class="check">✓</span> CRM configuration &amp; data migration</li>
-            <li><span class="check">✓</span> Third-party software integration</li>
-            <li><span class="check">✓</span> Team training &amp; documentation</li>
-            <li><span class="check">✓</span> Ongoing support &amp; optimisation</li>
-          </ul>
-        </div>
-        <div class="feature-visual reveal" aria-hidden="true">
-          <div class="orbit-ring"></div>
-          <div class="orbit-ring ring-2"></div>
-          <div class="orbit-core">IS</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== CTA Band ===== -->
-    <section class="cta-band">
-      <div class="container cta-band-inner reveal">
-        <h2>Ready to grow with a CRM that works for you?</h2>
-        <p>Tell us about your business and we'll show you what's possible.</p>
-        <a href="#contact" class="btn btn-primary">Get Started</a>
-      </div>
-    </section>
-
-    <!-- ===== Contact ===== -->
-    <section class="contact" id="contact">
-      <div class="container contact-grid">
-        <div class="reveal">
-          <p class="eyebrow">Get In Touch</p>
-          <h2>Contact Us</h2>
-          <p class="lead">Have a question about CRM implementation, integration, or process optimisation? Send us a message and our team will get back to you.</p>
-
-          <div class="contact-details">
-            <a href="tel:01217739923" class="contact-item">
-              <span class="contact-icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              </span>
-              0121 773 9923
-            </a>
-            <a href="mailto:enquiries@infosurge.co.uk" class="contact-item">
-              <span class="contact-icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.6"/><path d="m22 6-10 7L2 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              </span>
-              enquiries@infosurge.co.uk
-            </a>
-          </div>
-
-          <div class="social-links">
-            <a href="#" aria-label="Facebook" class="social-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
-            </a>
-            <a href="#" aria-label="Instagram" class="social-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
-            </a>
-            <a href="#" aria-label="X" class="social-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 4l16 16M20 4 4 20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-            </a>
-          </div>
-        </div>
-
-        <form class="contact-form reveal" id="contactForm">
-          <label>
-            Name
-            <input type="text" name="name" placeholder="Your name" required>
-          </label>
-          <label>
-            Email
-            <input type="email" name="email" placeholder="you@company.com" required>
-          </label>
-          <label>
-            Message
-            <textarea name="message" rows="4" placeholder="Tell us about your project" required></textarea>
-          </label>
-          <label class="consent">
-            <input type="checkbox" name="consent" required>
-            <span>I consent to Infosurge storing my details to respond to this enquiry.</span>
-          </label>
-          <button type="submit" class="btn btn-primary btn-block">Send Message</button>
-          <p class="form-note" id="formNote" hidden>Thanks — this is a placeholder form. Wire it up to your email/CRM endpoint before launch.</p>
         </form>
+
+        <a href="#contact" class="btn btn-outline btn-lg reveal">
+          Book a free consultation
+          <svg class="arrow" viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
       </div>
     </section>
+
+    <!-- ============ LIVE DEMOS ============ -->
+    <section class="section demos-section" id="demos">
+      <div class="container">
+        <div class="narrow center">
+          <span class="eyebrow reveal">Live demos</span>
+          <h2 class="section-title reveal">See it <em>working</em>, not just described.</h2>
+          <p class="section-text reveal">Interactive examples of the integration and EDI systems we build. Open one and click around.</p>
+        </div>
+
+        <div class="demos">
+          <article class="demo-card reveal">
+            <button class="demo-thumb" type="button" data-demo="demos/real-estate.html" data-demo-title="Real Estate" aria-label="Open the Real Estate live demo">
+              <img src="assets/demos/real-estate.png" alt="Property operations dashboard showing occupancy, revenue and maintenance" width="1440" height="900" loading="lazy">
+              <span class="demo-thumb-overlay"><span class="demo-play">
+                <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M5 3.5v9l7-4.5z" fill="currentColor"/></svg>
+                Live demo
+              </span></span>
+            </button>
+            <div class="demo-body">
+              <div class="demo-meta">
+                <span class="demo-tag">Build-to-rent</span>
+                <span class="demo-tag">Operations dashboard</span>
+              </div>
+              <h3>Real Estate</h3>
+              <p>One dashboard for residents, rent, maintenance and renewals, with Yardi, GoCardless, Fixflo, Salesforce and more connected in one place.</p>
+              <button class="btn btn-outline btn-sm" type="button" data-demo="demos/real-estate.html" data-demo-title="Real Estate">
+                Live demo
+                <svg class="arrow" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+          </article>
+
+          <article class="demo-card reveal">
+            <button class="demo-thumb" type="button" data-demo="demos/infosurge-exchange.html" data-demo-title="InfoSurge Exchange" aria-label="Open the InfoSurge Exchange live demo">
+              <img src="assets/demos/infosurge-exchange.png" alt="InfoSurge Exchange reading an EDIFACT delivery schedule and explaining it in plain English" width="1440" height="900" loading="lazy">
+              <span class="demo-thumb-overlay"><span class="demo-play">
+                <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M5 3.5v9l7-4.5z" fill="currentColor"/></svg>
+                Live demo
+              </span></span>
+            </button>
+            <div class="demo-body">
+              <div class="demo-meta">
+                <span class="demo-tag">EDI</span>
+                <span class="demo-tag">Automotive · NHS · Retail</span>
+              </div>
+              <h3>InfoSurge Exchange</h3>
+              <p>Reads EDIFACT, Peppol, X12, TRADACOMS and CSV, explains each document in plain English, catches errors before they're sent and converts to whatever format your partner needs.</p>
+              <button class="btn btn-outline btn-sm" type="button" data-demo="demos/infosurge-exchange.html" data-demo-title="InfoSurge Exchange">
+                Live demo
+                <svg class="arrow" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESULTS / STATS ============ -->
+    <!-- PLACEHOLDER: numbers carried over from the old site, confirm before launch -->
+    <section class="section" id="results">
+      <div class="container"><div class="stats">
+        <div class="stat reveal">
+          <span class="stat-num">10+</span>
+          <span class="stat-label">Years connecting business systems</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat-num">100+</span>
+          <span class="stat-label">Integration projects delivered</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat-num">95%</span>
+          <span class="stat-label">Of clients stay with us</span>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container narrow center">
+        <span class="eyebrow reveal">About us</span>
+        <h2 class="section-title reveal">Integration specialists, not <em>generalists</em>.</h2>
+        <p class="section-text reveal">Most businesses don't have a software problem. They have a connection problem: orders re-keyed from emails, spreadsheets passed between teams, and customers asking for EDI you can't yet send. Infosurge is a Birmingham-based integration and EDI consultancy. We connect your systems to each other and to your trading partners, check every document before it leaves, and stay on hand once you're live.</p>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="narrow center">
+          <span class="eyebrow reveal">What we do</span>
+          <h2 class="section-title reveal">Built to <em>connect</em>, built to last.</h2>
+          <p class="section-text reveal">From your first trading partner to your fiftieth, one team handles the mapping, the testing and the support.</p>
+        </div>
+        <div class="cards">
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="20" height="20"><path d="M4 8h13l-3.5-3.5M20 16H7l3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>EDI &amp; partner onboarding</h3>
+            <p>Get trading electronically with retailers, carmakers and NHS trusts. We work from your partner's specification, build and test the messages, and see you through partner testing to go-live.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="20" height="20"><circle cx="6" cy="12" r="2.6" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="18" cy="6" r="2.6" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="18" cy="18" r="2.6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8.3 10.8 15.7 7.2M8.3 13.2l7.4 3.6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+            </span>
+            <h3>System integration</h3>
+            <p>Connect your ERP, accounts, warehouse, e-commerce and carrier systems. Data is entered once, flows everywhere it's needed, and is checked on the way.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="20" height="20"><rect x="3.5" y="4" width="17" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3.5 9h17M8 13h5M8 16h8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </span>
+            <h3>Custom solutions</h3>
+            <p>Where off-the-shelf tools fall short, we build what's missing as part of your integration project: CRM set-ups, dashboards, portals and automations, designed around your data.</p>
+          </article>
+        </div>
+
+        <!-- PLACEHOLDER: confirm this list matches what you support -->
+        <div class="formats reveal">
+          <span class="formats-label">Standards we work with</span>
+          <ul>
+            <li>EDIFACT</li><li>EANCOM</li><li>TRADACOMS</li><li>ANSI X12</li><li>Peppol BIS</li><li>Odette</li><li>CSV &amp; JSON</li><li>REST APIs</li><li>SFTP</li><li>AS2</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="cta-panel reveal">
+          <span class="eyebrow">Get in touch</span>
+          <h2 class="section-title">Got a customer asking for <em>EDI</em>?</h2>
+          <p class="section-text">Book a free 30-minute consultation. Send us your partner's requirements, or tell us which systems need to talk, and we'll explain how we'd do it and what's involved. No obligation.</p>
+          <div class="cta-actions">
+            <a href="mailto:enquiries@infosurge.co.uk?subject=Free%2030-minute%20consultation" class="btn btn-solid btn-lg" id="email-cta">
+              Book a free call
+              <svg class="arrow" viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="tel:01217739923" class="btn btn-outline btn-lg">0121 773 9923</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
-  <!-- ===== Footer ===== -->
-  <footer class="site-footer">
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
     <div class="container footer-inner">
-      <div class="footer-brand">
-        <img src="assets/logo.png" alt="Infosurge" class="brand-logo">
-        <p>Transforming business processes with tailored IT and consulting solutions.</p>
-      </div>
-
-      <div class="footer-col">
-        <h4>Site</h4>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#features">Deliverable Features</a>
-        <a href="advisory/">Advisory Deck</a>
-        <a href="#contact">Contact</a>
-      </div>
-
-      <div class="footer-col">
-        <h4>Legal</h4>
-        <a href="#">Legal Notice</a>
-        <a href="#">Privacy Policy</a>
-      </div>
-
-      <div class="footer-col">
-        <h4>Contact</h4>
-        <a href="tel:01217739923">0121 773 9923</a>
-        <a href="mailto:enquiries@infosurge.co.uk">enquiries@infosurge.co.uk</a>
-      </div>
-    </div>
-    <div class="container footer-bottom">
-      <p>&copy; <span id="year"></span> Infosurge. All rights reserved.</p>
+      <span class="brand-name">Info<span>surge</span></span>
+      <span class="footer-meta">&copy; <span id="year">2026</span> Infosurge. All rights reserved.</span>
+      <a href="mailto:enquiries@infosurge.co.uk" class="footer-link">enquiries@infosurge.co.uk</a>
     </div>
   </footer>
 
-  <script src="js/script.js"></script>
+  <!-- ============ DEMO WINDOW ============ -->
+  <div class="demo-modal" id="demo-modal" role="dialog" aria-modal="true" aria-labelledby="demo-modal-title" hidden>
+    <div class="demo-backdrop" data-demo-close></div>
+    <div class="demo-window">
+      <div class="demo-bar">
+        <div class="demo-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+        <div class="demo-address">
+          <svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true"><rect x="3.5" y="7" width="9" height="6.5" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M5.5 7V5a2.5 2.5 0 015 0v2" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>
+          <span id="demo-modal-title">Live demo</span>
+          <span class="demo-live"><span class="status-dot"></span>Interactive</span>
+        </div>
+        <a class="demo-bar-btn" id="demo-newtab" href="#" target="_blank" rel="noopener" aria-label="Open demo in a new tab" title="Open in new tab">
+          <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M9 3h4v4M13 3 7.5 8.5M11.5 9.5V13H3V4.5h3.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <button class="demo-bar-btn" type="button" data-demo-close aria-label="Close demo" title="Close (Esc)">
+          <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+      <div class="demo-frame">
+        <div class="demo-loading">Loading demo…</div>
+        <iframe id="demo-iframe" title="Live demo" sandbox="allow-scripts"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js?v=20261005"></script>
 </body>
 </html>
