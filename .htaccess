@@ -1,0 +1,5 @@
+# Hide files that live in the repo but shouldn't be served:
+#  - dotfiles and dot-folders (.git, .claude, .gitattributes, .htaccess),
+#    except .well-known, which certificate checks need
+#  - reference/, the old site kept for comparison
+RedirectMatch 404 ^/(reference|\.(?!well-known)[^/]*)(/|$)
